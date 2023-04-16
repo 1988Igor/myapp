@@ -53,7 +53,7 @@ public class MainLayout extends AppLayout {
         // For documentation, visit https://github.com/vaadin/vcf-nav#readme
         AppNav nav = new AppNav();
 
-        nav.addItem(new AppNavItem("Master-Detail", MasterDetailView.class, LineAwesomeIcon.COLUMNS_SOLID.create()));
+        nav.addItem(new AppNavItem("Projects-CRM", MasterDetailView.class, LineAwesomeIcon.COLUMNS_SOLID.create()));
 
         return nav;
     }
